@@ -1,0 +1,171 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('../imagens/foto2.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 115vh;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    background-color: lightgray;
+    margin: 20px auto -50px auto;
+    width: 568px;
+}
+
+table td, th {
+    border: solid 1px black;
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.tabela-times {
+
+}
+
+.tabela-times1 {
+
+}
+
+.tabela-pontuaçao  {
+    display: block;
+    overflow-y: visible;
+    overflow-x: scroll;
+}
+
+table.artilheiros {
+    width: 571px;
+}
+
+col.time {
+    background-color: lightgray;
+}
+
+col.pontos {
+    background-color: white;
+}
+
+col.saldo {
+    background-color: lightgray;
+}
+
+col.gols {
+    background-color: white;
+}
+
+col.sofridos {
+    background-color: lightgray;
+}
+
+col.jogos {
+    background-color: white;
+}
+
+col.vitorias {
+    background-color: lightgray;
+}
+
+col.derrotas {
+    background-color: white;
+}
+
+col.empates {
+    background-color: lightgray;
+}
+
+main {
+    padding-top: 50px;
+    margin: auto;
+    width: fit-content;
+}
+
+.mainT {
+    display: flex;
+    margin-top: 0;
+    overflow-x: auto;
+}
+
+caption {
+    text-transform: uppercase;
+    text-align: left;
+    background-color: lightgray;
+    margin: 0 1px 0 1px;
+    font-weight: bold;
+    font-size: 1.4em;
+    padding: 5px 0 5px 220px;
+    position: relative;
+}
+
+img {
+    width: 32px;
+    position: absolute;
+    margin-left: 10px;
+    top: 27px;
+}
+
+col.nomeA {
+    background-color: lightgray;
+}
+
+col.timeA {
+    background-color: white;
+}
+
+col.golsA {
+    background-color: lightgray;
+}
+
+caption.artilheiros {
+    text-align: center;
+    padding: 5px;
+    position: relative;
+}
+
+.imgA {
+    width: 25px;
+    position: absolute;
+    top: 5px;
+}
+
+.mainA {
+    padding-top: 100px;
+}
+
+.men {
+    display: none;
+}
+
+footer {
+    background-color: lightgray;
+    padding-bottom: 40px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+footer p {
+    padding-top: 20px;
+}
+
+a {
+    padding: 30px;
+    color: rgb(97, 97, 97);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: blue;
+    text-decoration: underline;
+}
